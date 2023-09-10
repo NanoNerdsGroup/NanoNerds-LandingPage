@@ -145,6 +145,140 @@ Header .logo{
 }
 /*AboutUs*/
 
+/*Seller*/
+.Seller{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #53105C;
+    position: relative;
+
+}
+
+.Seller .container{
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.Seller video{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.capa{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+
+}
+
+.seller_benefits{
+
+    text-align: center;
+    background-color: #F6EB0F;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: auto;
+    width: 320px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.seller_benefits h1{
+    margin-bottom: 10px;
+}
+
+/*Seller*/
+
+/*Customer*/
+.Customer{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #53105C;
+    position: relative;
+
+}
+
+.Customer .container{
+
+
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.Customer video{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.capa{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+
+}
+
+.Customer_benefits{
+
+    text-align: center;
+    background-color: #9cecef;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: auto;
+    width: 320px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.Customer_benefits h1{
+    margin-bottom: 10px;
+}
+
+/*Customer*/
+
 @media (min-width: 810px) {
 
     /*Header*/
