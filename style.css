@@ -322,6 +322,26 @@ Header .logo{
 
 /*AboutTheTeam1*/
 
+/*footer*/
+footer{
+    background-color: #1B1919;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+
+footer p{
+    font-family: poppins;
+    font-size: small;
+}
+.smimg{
+    margin-top:5px;
+    height: 30px;   
+}
+/*footer*/
+
 @media (min-width: 810px) {
 
     /*Header*/
@@ -404,4 +424,22 @@ Header .logo{
     }
     /*AboutTheteam*/
 
+    /*footer*/
+    footer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    footer p{
+        font-family: poppins;
+        font-size: small;
+    }
+    .smimg{
+        margin-top:5px;
+        height: 30px;
+    }
+
+    /*footer*/
 }
